@@ -1,0 +1,19 @@
+{
+    "name": "hopper/onion",
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "src/Framework",
+            "Routes\\": "src/Routes",
+            "App\\": "src",
+            "Expansions\\": "src/Expansions"
+        }
+    },
+    "authors": [
+        {
+            "name": "skip"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^4.0"
+    }
+}

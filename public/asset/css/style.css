@@ -1,0 +1,189 @@
+* {
+    
+}
+ul {
+    padding-left: 0;
+}
+
+ul,ol,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+html {
+   
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color:#e5e5e5;
+
+}
+.div-container {
+
+    margin:0 auto;
+    width:100%;
+
+}
+.cont {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.05);
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    padding:1rem;
+    text-align: center;
+    font-size: 5rem;
+    margin-top:0;
+    margin-bottom: 1.3rem;
+    
+}
+.title-small {
+    font-size : 2rem;
+    text-align: center;
+}
+.flex-right {
+    display: flex;
+    justify-content: right;
+    width:100%;
+}
+input[type=text] {
+    width:100%;
+    border-radius: 5px;
+    font-size:1.3rem;
+    padding:0 0.7rem 0.7rem 0.7rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    color:#fff;
+    padding:0.2rem;
+}
+
+.btn-primary {
+
+    background-color: #3a8186;
+}
+.btn-pink {
+    background-color: #F875AA;
+}
+.btn-pretty {
+    font-size : 2rem;
+    background-color: #FFA33C;
+    margin-right: 0.8rem;
+}
+
+.input-cont{
+    width:90%;
+}
+
+.input-cont input {
+    border: 1px solid #3a8186;
+    font-size: 1.5rem;
+}
+.input-cont-big{
+    width:70%;
+}
+
+.input-cont-short{
+    width:25%;
+}
+.form {
+    padding:0 2rem;
+}
+.table-cell {
+    width:100%;
+}
+.rows {
+    display: flex;
+    width:100%;
+    margin:0.5rem 0;
+    align-items: center;
+}
+
+.rows .rows-left {
+    display: flex;
+    align-items: center;
+    width:30%;
+}
+.rows .rows-right{
+    display: flex;
+    align-items: center;
+    width:70%;
+}
+.rows .rows-left-small {
+    display: flex;
+    align-items: center;
+    width:20%;
+}
+.rows .rows-right-small{
+    display: flex;
+    align-items: center;
+    width:80%;
+}
+
+.nameTag {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+select {
+    width:100%;
+    font-size: 1.5rem;
+    padding: 0.5rem 0.4rem 0.4rem 0.4rem;
+}
+
+.flex-middle {
+    display: flex;
+    justify-content: cener;
+}
+
+table {
+    width:100%;
+}
+
+table th {
+    font-size: 1.8rem;
+}
+table td {
+    text-align: center;
+    font-size:1.5rem;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header a{
+    position: relative;
+    display: block;
+    width: 280px;
+    height: 50px;
+    text-align: center;
+}
+
+header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
+}
