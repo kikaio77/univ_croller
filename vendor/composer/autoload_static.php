@@ -30,10 +30,6 @@ class ComposerStaticInit6024c26c651ccec0321644fb6aab2903
         array (
             'Framework\\' => 10,
         ),
-        'E' => 
-        array (
-            'Expansions\\' => 11,
-        ),
         'C' => 
         array (
             'Composer\\Pcre\\' => 14,
@@ -60,8 +56,8 @@ class ComposerStaticInit6024c26c651ccec0321644fb6aab2903
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Http\\Client\\' => 
         array (
@@ -78,10 +74,6 @@ class ComposerStaticInit6024c26c651ccec0321644fb6aab2903
         'Framework\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src/Framework',
-        ),
-        'Expansions\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src/Expansions',
         ),
         'Composer\\Pcre\\' => 
         array (
