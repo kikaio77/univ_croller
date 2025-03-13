@@ -5,6 +5,7 @@ require __DIR__.'/../vendor/autoload.php';
 
 use App\Func;
 use Error;
+use Exception;
 use phpoffice\phpspreadsheet;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Style\Alignment;
@@ -81,7 +82,6 @@ foreach ($indexPage->find('.usItemCategoryDropdownList a') as $idx => $a) {
 	
 }
 
-
 $maxDepth = PHP_FLOAT_MIN;
 
 $attrByClass = ['.usCategoryBandBanner .usListBannerImage' => 'data-href', '.swiper-wrapper a' => 'href'];
@@ -140,4 +140,4 @@ $sheet->getStyle('B2:F2')->getAlignment()->setHorizontal(Alignment::HORIZONTAL_C
 $xlsx = new Xlsx($spreadSheet);
 $xlsx->save($filePath);
 
-exit();
+?>
