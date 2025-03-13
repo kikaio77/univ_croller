@@ -81,10 +81,6 @@ class Func
 			}
 		}
 
-		if (sizeof($data['slide_url']) > 12) {
-			error_log($data['name'].' '.print_r($data['slide_url'], true));
-		}
-
 		$maxColSize['slide'] = max($maxColSize['slide'], sizeof($data['slide_url']));
 		$maxColSize['banner'] = max($maxColSize['banner'], sizeof($data['banner_url']));
 	
