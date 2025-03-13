@@ -6,6 +6,16 @@ use Routes\web;
 try {
 	require __DIR__.'/../vendor/autoload.php';
 
+	$envPath = __DIR__.'/../.env';
+
+	if (file_exists($envPath)) {
+		$envFp = fopen($envPath, 'r');
+
+		while (!feof($envFp)) {
+			$line = fgets($envFp);
+			putenv($line);
+		}
+	}
 	$entryPoint = new EntryPoint(new Web(), $_SERVER['REQUEST_METHOD'], $_SERVER['REQUEST_URI'], (Object)$_REQUEST);
 	
 	$entryPoint->run();

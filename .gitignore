@@ -2,3 +2,4 @@ mynote.txt
 temp/
 .swp
 storage/
+.env
